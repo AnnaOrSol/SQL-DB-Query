@@ -18,7 +18,7 @@ CREATE TABLE CouponsProject.`Coupon` (
   `type` varchar(45) DEFAULT NULL,
   `message` varchar(45) DEFAULT NULL,
   `price` double DEFAULT NULL,
-  `image` varchar(45) DEFAULT NULL,
+  `image` varchar(455) DEFAULT NULL,
   PRIMARY KEY (`id`),
   UNIQUE KEY `title_UNIQUE` (`title`)
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4;
